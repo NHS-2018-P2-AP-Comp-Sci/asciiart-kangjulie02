@@ -1,17 +1,35 @@
-/**
- * Unit 1 Project
- * 
- * In this project you have the opportunity to create a piece of artwork using ASCII 
- * (American Standard Code for Information Interchange). Using the already created file 
- * named `ASCIIArt.java` write a program that outputs your artwork to the console. 
- * The goal of this project is to use ONLY what we have learned in Unit 1 to create 
- * anything you would like so be creative (and school appropriate). Artwork must also have a caption describing what it's depicting.  
- * 
- * For those of you who have dabbled in coding before, try to contain your code to 
- * just what we have discussed in this unit.  
- * 
- * @author Mr. Rasmussen 
- *
- */
+/* Fifty nifty united states of America exemplifies patriotism */
+public class ASCIIArt {
+public static void main (String [] args) { 
+	Starline ();
+	Starline ();
+    Starline ();
+    Starline ();
+    Star ();
+    Line ();
+    Line ();
+    Line ();
+    Line ();
+   America ();
+   United50 (); 
+    
+}
 
-// YOUR CODE GOES HERE :)
+public static void Starline () { 
+	System.out.println("*    *    *    *    *    * --------------------------------------------------\n" + 
+			"  *     *    *    *    *   --------------------------------------------------");
+}
+
+public static void Star () {
+	System.out.println ("*    *    *    *    *    * --------------------------------------------------");
+}
+public static void Line () { 
+	System.out.println("-----------------------------------------------------------------------------");
+}
+public static void America () {
+System.out.println("FIFTY STATES OF AMERICA -----------------------------------------------------");}
+public static void United50 (){
+System.out.println ("\"Fifty nifty United States from thirteen original colonies.\nFifty nifty stars in the flag that billows so beautifully in the breeze.\" \n - By Ray Charles ");
+
+}
+}
